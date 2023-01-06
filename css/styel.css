@@ -59,14 +59,15 @@ ul li a:hover{
     text-align: center;
     text-decoration: transparent;
     color: white;
-   
-   
  }
  .mainData button{
     margin-top: 25px;
     padding: 10px;
     border-radius: 20px;
     font-size: 20px;
+ }
+ .mainData button:hover{
+  color: orangered;
  }
  .mainData .favorite{
     margin-top: 20px;
@@ -138,6 +139,11 @@ ul li a:hover{
    font-size: 20px;
    color: white;
  }
+ .play{
+  padding-left: 210px;
+  padding-top: 50px;
+  
+ } 
  .back{
   background-image: url(/img.jpeg);
   background-repeat: no-repeat;
@@ -149,11 +155,10 @@ ul li a:hover{
  }
  .intro p{
    padding-top: 20px;
-   font-size: 15px;
+   font-size: 20px;
    line-height:30px;
    color:white;
-   text-transform: lowercase;
-   
+   text-transform: uppercase;
  }
  .intro h4{
    text-align: center;
@@ -172,8 +177,9 @@ ul li a:hover{
    text-transform: uppercase;
    font-style: italic;
    text-decoration: underline;
-   text-decoration-color: green;
-   padding: 8px;
+   text-decoration-color:black;
+   text-decoration-style: wavy;
+   padding: 12px;
    margin: 6px;
  }
  .container{
@@ -206,11 +212,33 @@ ul li a:hover{
  }
  .sheary{
    text-align: right;
-   background-color: rgba(0, 0, 0, 0.7);
+   background-color: rgba(0, 0, 0, 0.3);
    padding: 10px;
    font-size:20px ;
    font-style: italic;
+   margin: 30px;
  }
- 
+ .enter{
+  background-color: rgba(0, 0, 0, 0.6);
+  text-align: center;
+  font-size: 25px;
 
- 
+
+ }
+ .shift img{
+margin: 20px;
+border-radius: 200px;
+transform: none;
+
+
+ }
+ .enter button{
+  border: 2px solid black;
+  padding: 10px;
+  margin: 20px;
+  font-weight: bold;
+  font-size: 15px;
+ }
+ .enter button:hover{
+  color:red;
+ }
